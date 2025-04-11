@@ -21,7 +21,7 @@ namespace GuessNumber
 
                 if (guess < number)
                 {
-                    
+                    Console.WriteLine("Моё число больше.");
                 }
             }
         }
