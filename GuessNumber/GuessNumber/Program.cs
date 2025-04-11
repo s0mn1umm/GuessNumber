@@ -18,6 +18,11 @@ namespace GuessNumber
             {
                 Console.Write("Твой вариант: ");
                 int guess = int.Parse(Console.ReadLine());
+
+                if (guess < number)
+                {
+                    
+                }
             }
         }
     }
