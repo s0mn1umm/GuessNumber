@@ -13,6 +13,11 @@ namespace GuessNumber
             Random rnd = new Random();
             int number = rnd.Next(1, 101);
             Console.WriteLine("Я загадал число от 1 до 100. Попробуй угадать!");
+
+            while (true)
+            {
+                
+            }
         }
     }
 }
