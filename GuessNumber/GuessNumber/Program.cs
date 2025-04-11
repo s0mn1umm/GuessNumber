@@ -27,6 +27,11 @@ namespace GuessNumber
                 {
                     Console.WriteLine("Моё число меньше.");
                 }
+                else
+                {
+                    Console.WriteLine("Поздравляю, ты угадал!");
+                    break;
+                }
             }
         }
     }
