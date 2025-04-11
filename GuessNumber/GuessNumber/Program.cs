@@ -23,6 +23,10 @@ namespace GuessNumber
                 {
                     Console.WriteLine("Моё число больше.");
                 }
+                else if (guess > number)
+                {
+                    Console.WriteLine("Моё число меньше.");
+                }
             }
         }
     }
