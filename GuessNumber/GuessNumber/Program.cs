@@ -16,7 +16,8 @@ namespace GuessNumber
 
             while (true)
             {
-                
+                Console.Write("Твой вариант: ");
+                int guess = int.Parse(Console.ReadLine());
             }
         }
     }
