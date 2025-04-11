@@ -11,6 +11,7 @@ namespace GuessNumber
         static void Main(string[] args)
         {
             Random rnd = new Random();
+            int number = rnd.Next(1, 101);
         }
     }
 }
